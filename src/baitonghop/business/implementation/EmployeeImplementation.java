@@ -61,7 +61,7 @@ public class EmployeeImplementation implements IManageable<Department, Employee>
                 break;
             System.out.println(employeeList.get(i));
         }
-        System.out.printf("Trang hiện tại: %d/%d", currentPage, numberOfPages);
+        System.out.printf("Trang hiện tại: %d/%d", currentPage + 1, numberOfPages);
     }
 
     @Override
